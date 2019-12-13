@@ -1,0 +1,556 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>Iran-Infos Forum</title> 
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" /> 
+ 
+<!--TEMPLATE: skin_global, Template Part: css_inline-->
+<style type='text/css'>
+html { overflow-x: auto; }
+BODY { font-family: Verdana, Tahoma, Arial, sans-serif;font-size: 11px;margin: 0px;padding: 0px;text-align: center;color: #000;background-color: #DFE9EB; }
+TABLE, TR, TD { font-family: Verdana, Tahoma, Arial, sans-serif;font-size: 11px;color: #000; }
+#ipbwrapper { text-align: left;width: 99%;margin-left: auto;margin-right: auto; }
+#ipbwrapper img { vertical-align: middle;border: 0px; }
+a:link, a:visited, a:active { text-decoration: underline;color: #000; }
+a:hover { text-decoration: underline;color: #000000; }
+fieldset.search { padding: 6px;line-height: 150%; }
+label { cursor: pointer; }
+form { display: inline; }
+img.attach { padding: 2px;border: 2px outset #EEF2F7; }
+.googleroot { padding: 6px;line-height: 130%; }
+.googlechild { padding: 6px;margin-left: 30px;line-height: 130%; }
+.googlebottom, .googlebottom a:link, .googlebottom a:visited, .googlebottom a:active { font-size: 11px;color: #3A4F6C; }
+.googlish, .googlish a:link, .googlish a:visited, .googlish a:active { font-size: 14px;font-weight: bold;color: #00D; }
+.googlepagelinks { font-size: 1.1em;letter-spacing: 1px; }
+.googlesmall, .googlesmall a:link, .googlesmall a:active, .googlesmall a:visited { font-size: 10px;color: #434951; }
+li.helprow { padding: 0px;margin: 0px 0px 10px 0px; }
+ul#help { padding: 0px 0px 0px 15px; }
+option.cat { font-weight: bold; }
+option.sub { font-weight: bold;color: #555; }
+.caldate { text-align: right;font-weight: bold;font-size: 11px;padding: 4px;margin: 0px;color: #000000;background-color: #EFEFEF; }
+.warngood { color: green; }
+.warnbad { color: red; }
+#padandcenter { margin-left: auto;margin-right: auto;text-align: center;padding: 14px 0px 14px 0px; }
+#profilename { font-size: 28px;font-weight: bold; }
+#calendarname { font-size: 22px;font-weight: bold; }
+#photowrap { padding: 6px; }
+#phototitle { font-size: 24px;border-bottom: 1px solid black; }
+#photoimg { text-align: center;margin-top: 15px; }
+#ucpmenu { line-height: 150%;width: 22%;background-color: #F5F9FD;border: 1px solid #345487; }
+#ucpmenu p { padding: 2px 5px 6px 9px;margin: 0px; }
+#ucpcontent { line-height: 150%;width: auto;background-color: #F5F9FD;border: 1px solid #345487; }
+#ucpcontent p { padding: 10px;margin: 0px; }
+#ipsbanner { position: absolute;top: 1px;right: 5%; }
+#logostrip { padding: 0px;margin: 0px;background-color: #DFE9EB; }
+#submenu { font-size: 10px;margin: 3px 0px 3px 0px;font-weight: bold;color: #000000;background-color: #DFE9EB;border: 1px solid #C2CFDF; }
+#submenu a:link, #submenu  a:visited, #submenu a:active { font-weight: bold;font-size: 10px;text-decoration: none;color: #000000; }
+#userlinks { background-color: #DFE9EB;border: 1px solid #C2CFDF; }
+#navstrip { font-weight: bold;padding: 6px 0px 6px 0px; }
+.activeuserstrip { padding: 6px;background-color: #B8B6B8; }
+.pformstrip { font-weight: bold;padding: 7px;margin-top: 1px;color: #000000;background-color: #B8B6B8; }
+.pformleft { padding: 6px;margin-top: 1px;width: 25%;border-top: 1px solid #C2CFDF;border-right: 1px solid #C2CFDF;background-color: #EFEFEF; }
+.pformleftw { padding: 6px;margin-top: 1px;width: 40%;border-top: 1px solid #C2CFDF;border-right: 1px solid #C2CFDF;background-color: #F5F9FD; }
+.pformright { padding: 6px;margin-top: 1px;border-top: 1px solid #C2CFDF;background-color: #EFEFEF; }
+.signature { font-size: 10px;line-height: 150%;color: #339; }
+.postdetails { font-size: 10px; }
+.postcolor { font-size: 12px;line-height: 160%; }
+.normalname { font-size: 12px;font-weight: bold;color: #003; }
+.normalname a:link, .normalname a:visited, .normalname a:active { font-size: 12px; }
+.unreg { font-size: 11px;font-weight: bold;color: #900; }
+.post1 { background-color: #EFEFEF; }
+.post2 { background-color: #EFEFEF; }
+.postlinksbar { padding: 7px;margin-top: 1px;font-size: 10px;background-color: #B8B6B8; }
+.row1 { background-color: #EFEFEF; }
+.row2 { background-color: #EFEFEF; }
+.row3 { background-color: #EFEFEF; }
+.row4 { background-color: #EFEFEF; }
+.darkrow1 { color: #4C77B6;background-color: #EFEFEF; }
+.darkrow2 { color: #3A4F6C;background-color: #B8B6B8;}
+.darkrow3 { color: #3A4F6C;background-color: #B8B6B8; }
+.hlight { background-color: #DFE6EF; }
+.dlight { background-color: #EEF2F7; }
+.titlemedium { font-weight: bold;padding: 7px;margin: 0px;color: #000000;background-color: #B8B6B8; }
+.titlemedium  a:link, .titlemedium  a:visited, .titlemedium  a:active { text-decoration: underline;color: #000000; }
+.maintitle { vertical-align: middle;font-weight: bold;padding: 8px 0px 8px 5px;color: #000000;background-color: #A2A0A3}
+.maintitle a:link, .maintitle  a:visited, .maintitle  a:active { text-decoration: none;color: #000000; }
+.maintitle a:hover { text-decoration: underline; }
+.plainborder { background-color: #EFEFEF;border: 1px solid #345487; }
+.tableborder { background-color: #FFF;border: 1px solid #345487; }
+.tablefill { padding: 6px;background-color: #EFEFEF;border: 1px solid #345487; }
+.tablepad { padding: 6px;background-color: #EFEFEF; }
+.tablebasic { width: 100%;padding: 0px 0px 0px 0px;margin: 0px;border: 0px; }
+.wrapmini { float: left;line-height: 1.5em;width: 25%; }
+.pagelinks { float: left;line-height: 1.2em;width: 35%; }
+.desc { font-size: 10px;color: #434951; }
+.edit { font-size: 9px; }
+.searchlite { font-weight: bold;color: #F00;background-color: #FF0; }
+#QUOTE { white-space: normal;font-family: Verdana, Arial;font-size: 11px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;padding-left: 2px;color: #465584;background-color: #FAFCFE;border: 1px solid #000; }
+#CODE { white-space: normal;font-family: Courier, Courier New, Verdana, Arial;font-size: 11px;padding-top: 2px;padding-right: 2px;padding-bottom: 2px;padding-left: 2px;color: #465584;background-color: #FAFCFE;border: 1px solid #000; }
+.copyright { font-family: Verdana, Tahoma, Arial, Sans-Serif;font-size: 9px;line-height: 12px; }
+.codebuttons { font-size: 10px;font-family: verdana, helvetica, sans-serif;vertical-align: middle; }
+.forminput, .textinput, .radiobutton, .checkbox { font-size: 11px;font-family: verdana, helvetica, sans-serif;vertical-align: middle; }
+.thin { padding: 6px 0px 6px 0px;line-height: 140%;margin: 2px 0px 2px 0px;border-top: 1px solid #FFF;border-bottom: 1px solid #FFF; }
+.purple { font-weight: bold;color: purple; }
+.red { font-weight: bold;color: red; }
+.green { font-weight: bold;color: green; }
+.blue { font-weight: bold;color: blue; }
+.orange { font-weight: bold;color: #F90; }
+
+</style> 
+ 
+</head> 
+<body>
+<div id="ipbwrapper">
+<!--TEMPLATE: skin_global, Template Part: BoardHeader-->
+<script language='JavaScript' type="text/javascript">
+<!--
+function buddy_pop() { window.open('index.php?act=buddy&s=95a5882b802bedc80e71c1ce24af501b','BrowserBuddy','width=250,height=500,resizable=yes,scrollbars=yes'); }
+function chat_pop(cw,ch)  { window.open('index.php?s=95a5882b802bedc80e71c1ce24af501b&act=chat&pop=1','Chat','width='+cw+',height='+ch+',resizable=yes,scrollbars=yes'); }
+function multi_page_jump( url_bit, total_posts, per_page )
+{
+pages = 1; cur_st = parseInt(""); cur_page  = 1;
+if ( total_posts % per_page == 0 ) { pages = total_posts / per_page; }
+ else { pages = Math.ceil( total_posts / per_page ); }
+msg = "Tragen Sie bitte die Seitennummer ein, zu der Sie wechseln möchten - zwischen 1 und" + " " + pages;
+if ( cur_st > 0 ) { cur_page = cur_st / per_page; cur_page = cur_page -1; }
+show_page = 1;
+if ( cur_page < pages )  { show_page = cur_page + 1; }
+if ( cur_page >= pages ) { show_page = cur_page - 1; }
+ else { show_page = cur_page + 1; }
+userPage = prompt( msg, show_page );
+if ( userPage > 0  ) {
+	if ( userPage < 1 )     {    userPage = 1;  }
+	if ( userPage > pages ) { userPage = pages; }
+	if ( userPage == 1 )    {     start = 0;    }
+	else { start = (userPage - 1) * per_page; }
+	window.location = url_bit + "&st=" + start;
+}
+}
+//-->
+</script>
+ 
+<!--IBF.BANNER-->
+<!-- IE6/Win TABLE FIX -->
+<table  width="100%" cellspacing="6" id="submenu">
+<tr>
+ <td><a href='http://iran-infos.de/forum'>Iran-Infos Forum</a><!--IBF.RULES--></td>
+ <td align="right">
+   <img src="style_images/1/atb_help.gif" border="0" alt="" />&nbsp;<a href='http://www.iran-infos.de/forum/index.php?s=95a5882b802bedc80e71c1ce24af501b&amp;act=Help'>Hilfe</a>
+   &nbsp; &nbsp;&nbsp;<img src="style_images/1/atb_search.gif" border="0" alt="" />&nbsp;<a href='http://www.iran-infos.de/forum/index.php?s=95a5882b802bedc80e71c1ce24af501b&amp;act=Search&amp;f='>Suche</a>
+   &nbsp; &nbsp;&nbsp;<img src="style_images/1/atb_members.gif" border="0" alt="" />&nbsp;<a href='http://www.iran-infos.de/forum/index.php?s=95a5882b802bedc80e71c1ce24af501b&amp;act=Members'>Mitglieder</a>
+   &nbsp; &nbsp;&nbsp;<img src="style_images/1/atb_calendar.gif" border="0" alt="" />&nbsp;<a href='http://www.iran-infos.de/forum/index.php?s=95a5882b802bedc80e71c1ce24af501b&amp;act=calendar'>Kalender</a>
+   <!--IBF.CHATLINK-->
+&nbsp; &nbsp; &nbsp;<a href='http://www.iran-infos.de/forum/index.php?s=95a5882b802bedc80e71c1ce24af501b&amp;act=schat'>IRC Chat </a>
+   <!--IBF.TSLLINK-->
+ </td>
+</tr>
+</table>
+<!--TEMPLATE: skin_global, Template Part: Guest_bar-->
+<table width="100%" id="userlinks" cellspacing="6">
+   <tr>
+    <td>Herzlich Willkommen! ( <a href='http://www.iran-infos.de/forum/index.php?s=95a5882b802bedc80e71c1ce24af501b&amp;act=Login&amp;CODE=00'>Einloggen</a> | <a href='http://www.iran-infos.de/forum/index.php?s=95a5882b802bedc80e71c1ce24af501b&amp;act=Reg&amp;CODE=00'>Registrieren</a> )</td>
+    <td align='right'><a href='http://www.iran-infos.de/forum/index.php?s=95a5882b802bedc80e71c1ce24af501b&amp;act=Reg&amp;CODE=reval'>Nochmaliges Übersenden der Registrierungs-Mail</a></td>
+   </tr>
+  </table>
+<br /> 
+<!--TEMPLATE: skin_global, Template Part: start_nav-->
+<div id='navstrip' align='left'><img src='style_images/1/nav.gif' border='0'  alt='&gt;' />&nbsp;<a href='http://www.iran-infos.de/forum/index.php?s=95a5882b802bedc80e71c1ce24af501b&amp;act=idx'>Forum</a><!--TEMPLATE: skin_global, Template Part: end_nav-->
+</div>
+<br /> 
+<a name="sChat"></a>
+<table cellspacing="0" width="100%" class='tableborder'>
+<tr>
+ <td class='maintitle'>Willkommen in unserem Chat </td>
+</tr>
+<tr>
+ <td valign="top" class="post1" style="padding:5px">
+
+   <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+
+     <tr>
+
+ <td width="140" valign="top">
+
+ <div class="tableborder">    
+ 
+ 
+ <table width="100%" class="row4" border="0" cellspacing="1" cellpadding="4">
+         <tr>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/ange.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':ange:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/argh.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':argh:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/arbre.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':arbre:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+         </tr>
+         <tr>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/ballon.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':ballon:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/biere.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':biere:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/bombe.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':bombe:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+         </tr>
+         <tr>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/bouche.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':bouche:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/bouqin.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':bouqin:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/cadeau.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':cadeau:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+         </tr>
+         <tr>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/chien.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':chien:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/clin-oeuil-langue.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':clinquil:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/clin-oeuil.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':clinquil2:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+         </tr>
+         <tr>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/coeur-brise.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':_coeur-brise_:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/coeur.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':coeur:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/comprends-pas.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':_omprends:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+         </tr>
+         <tr>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/cool.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':cool:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/content.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':content:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/diable.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':_iable:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+         </tr>
+         <tr>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/dwchat.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':_wchat:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/enerve1.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':enerve1:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/enerve2.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':enerve2:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+         </tr>
+         <tr>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/femme.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':femme:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/fille.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':fille:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/fleur.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':fleur:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+         </tr>
+         <tr>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/fume.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':fume:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/garcon.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':garcon:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/grognon.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':grognon:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+         </tr>
+         <tr>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/halloween.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':halloween:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/hamburger.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':hamburger:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/yinyang.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':yinyang:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+         </tr>
+         <tr>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/homme.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':homme:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/langue.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':langue:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/lettre.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':lettre:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+         </tr>
+         <tr>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/lit.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':lit:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/love.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':love:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/lune.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':lune:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+         </tr>
+         <tr>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/mecontent.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':mecontent:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/newbie.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':newbie:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/OH-1.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':_H-1:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+         </tr>
+         <tr>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/OH-2.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':_H-2:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/OH-3.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':_H-3:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/ordi.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':_rdi:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+         </tr>
+         <tr>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/pere-noel.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':_ere-noel:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/poisson.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':_oisson:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/pleure.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':_leure:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+         </tr>
+         <tr>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/pomme.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':_omme:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/portable.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':_ortable:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/pouce-non.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':_ouce-non:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+         </tr>
+         <tr>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/pouce-oui.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':_ouce-oui:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/roll-eyes.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':roll-eyes:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/rouge.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':rouge:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+         </tr>
+         <tr>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/sapin.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':_apin:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/sleep.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':_leep:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/soleil.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':_oleil:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+         </tr>
+         <tr>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/sourire.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':_ourire:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/terre.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':terre:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/triste.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':triste:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+         </tr>
+         <tr>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/verre-eau.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':verre-eau:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"><a href="#sChat"><img src=schat/img/verre-vin.gif border="0" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+':verre-vin:');document.pjirc.requestSourceFocus()" value=""></a></div></td>
+           <td><div align="center"></div></td>
+         </tr>
+       </table>  
+         </div>   
+	   
+       </td>
+       <td width="15">&nbsp;</td>
+       <td width="750" valign="top">
+           <applet name="pjirc" code=IRCApplet.class archive="irc.jar,pixx.jar," width="100%" height="450" codebase="schat/" >
+                  <param name="CABINETS" value="irc.cab,securedirc.cab,pixx.cab">
+                  <param name="nick" value="Guest">
+                  <param name="alternatenick" value="Guest???">
+                  <param name="name" value="sChat User">
+                  <param name="host" value="irc.euirc.net">
+                  <param name="gui" value="pixx">
+                  <param name="command1" value="join #Iran">
+                  <param name="pixx:language" value="english">
+                  <param name="quitmessage" value="bye">
+                  <param name="useinfo" value="true">
+                  <param name="asl" value="true">
+                  <param name="port" value="6668">
+                  <param name="style:bitmapsmileys" value="true">
+                  <param name="style:smiley1" value=":) img/sourire.gif">
+                  <param name="style:smiley2" value=":-) img/sourire.gif">
+                  <param name="style:smiley3" value=":-D img/content.gif">
+                  <param name="style:smiley4" value=":d img/content.gif">
+                  <param name="style:smiley5" value=":-O img/OH-2.gif">
+                  <param name="style:smiley6" value=":o img/OH-1.gif">
+                  <param name="style:smiley7" value=":-P img/langue.gif">
+                  <param name="style:smiley8" value=":p img/langue.gif">
+                  <param name="style:smiley9" value=";-) img/clin-oeuil.gif">
+                  <param name="style:smiley10" value=";) img/clin-oeuil.gif">
+                  <param name="style:smiley11" value=":-( img/triste.gif">
+                  <param name="style:smiley12" value=":( img/triste.gif">
+                  <param name="style:smiley13" value=":-| img/OH-3.gif">
+                  <param name="style:smiley14" value=":| img/OH-3.gif">
+                  <param name="style:smiley15" value=":'( img/pleure.gif">
+                  <param name="style:smiley16" value=":$ img/rouge.gif">
+                  <param name="style:smiley17" value=":-$ img/rouge.gif">
+                  <param name="style:smiley18" value="(H) img/cool.gif">
+                  <param name="style:smiley19" value="(h) img/cool.gif">
+                  <param name="style:smiley20" value=":-@ img/enerve1.gif">
+                  <param name="style:smiley21" value=":@ img/enerve2.gif">
+                  <param name="style:smiley22" value=":-S img/roll-eyes.gif">
+                  <param name="style:smiley23" value=":s img/roll-eyes.gif">
+                  <param name="style:smiley24" value=":ange: img/ange.gif">
+                  <param name="style:smiley25" value=":argh: img/argh.gif">
+                  <param name="style:smiley26" value=":arbre: img/arbre.gif">
+                  <param name="style:smiley27" value=":ballon: img/ballon.gif">
+                  <param name="style:smiley28" value=":biere: img/biere.gif">
+                  <param name="style:smiley29" value=":bombe: img/bombe.gif">
+                  <param name="style:smiley30" value=":bouche: img/bouche.gif">
+                  <param name="style:smiley31" value=":bouqin: img/bouqin.gif">
+                  <param name="style:smiley32" value=":cadeau: img/cadeau.gif">
+                  <param name="style:smiley33" value=":chien: img/chien.gif">
+                  <param name="style:smiley34" value=":clinquil: img/clin-oeuil-langue.gif">
+                  <param name="style:smiley35" value=":clinquil2: img/clin-oeuil.gif">
+                  <param name="style:smiley36" value=":_coeur-brise_: img/coeur-brise.gif">
+                  <param name="style:smiley37" value=":coeur: img/coeur.gif">
+                  <param name="style:smiley38" value=":_omprends: img/comprends-pas.gif">
+                  <param name="style:smiley39" value=":content: img/content.gif">
+                  <param name="style:smiley40" value=":cool: img/cool.gif">
+                  <param name="style:smiley41" value=":_iable: img/diable.gif">
+                  <param name="style:smiley42" value=":_wchat: img/dwchat.gif">
+                  <param name="style:smiley43" value=":enerve1: img/enerve1.gif">
+                  <param name="style:smiley44" value=":enerve2: img/enerve2.gif">
+                  <param name="style:smiley45" value=":femme: img/femme.gif">
+                  <param name="style:smiley46" value=":fille: img/fille.gif">
+                  <param name="style:smiley47" value=":fleur: img/fleur.gif">
+                  <param name="style:smiley48" value=":fume: img/fume.gif">
+                  <param name="style:smiley49" value=":garcon: img/garcon.gif">
+                  <param name="style:smiley50" value=":grognon: img/grognon.gif">
+                  <param name="style:smiley51" value=":halloween: img/halloween.gif">
+                  <param name="style:smiley52" value=":hamburger: img/hamburger.gif">
+                  <param name="style:smiley53" value=":homme: img/homme.gif">
+                  <param name="style:smiley54" value=":langue: img/langue.gif">
+                  <param name="style:smiley55" value=":lettre: img/lettre.gif">
+                  <param name="style:smiley56" value=":lit: img/lit.gif">
+                  <param name="style:smiley57" value=":love: img/love.gif">
+                  <param name="style:smiley58" value=":lune: img/lune.gif">
+                  <param name="style:smiley59" value=":mecontent: img/mecontent.gif">
+                  <param name="style:smiley60" value=":newbie: img/newbie.gif">
+                  <param name="style:smiley61" value=":_H-1: img/OH-1.gif">
+                  <param name="style:smiley62" value=":_H-2: img/OH-2.gif">
+                  <param name="style:smiley63" value=":_H-3: img/OH-3.gif">
+                  <param name="style:smiley64" value=":_rdi: img/ordi.gif">
+                  <param name="style:smiley65" value=":_ere-noel: img/pere-noel.gif">
+                  <param name="style:smiley66" value=":_leure: img/pleure.gif">
+                  <param name="style:smiley67" value=":_oisson: img/poisson.gif">
+                  <param name="style:smiley68" value=":_omme: img/pomme.gif">
+                  <param name="style:smiley69" value=":_ortabel: img/portable.gif">
+                  <param name="style:smiley70" value=":_ouce-non: img/pouce-non.gif">
+                  <param name="style:smiley71" value=":_ouce-oui: img/pouce-oui.gif">
+                  <param name="style:smiley72" value=":roll-eyes: img/roll-eyes.gif">
+                  <param name="style:smiley73" value=":rouge: img/rouge.gif">
+                  <param name="style:smiley74" value=":_apin: img/sapin.gif">
+                  <param name="style:smiley75" value=":_leep: img/sleep.gif">
+                  <param name="style:smiley76" value=":_oleil: img/soleil.gif">
+                  <param name="style:smiley77" value=":_ourire: img/sourire.gif">
+                  <param name="style:smiley78" value=":terre: img/terre.gif">
+                  <param name="style:smiley79" value=":triste: img/triste.gif">
+                  <param name="style:smiley80" value=":verre-eau: img/verre-eau.gif">
+                  <param name="style:smiley81" value=":verre-vin: img/verre-vin.gif">
+                  <param name="style:smiley82" value=":yinyang: img/yinyang.gif">
+                  <param name="style:backgroundimage" value="false">
+                  <param name="style:backgroundimage1" value="all all 0 background.gif">
+                  <param name="style:sourcefontrule1" value="all all Verdana 12">
+                  <param name="style:floatingasl" value="true">
+                  <param name="pixx:timestamp" value="true">
+                  <param name="pixx:highlight" value="false">
+                  <param name="pixx:highlightnick" value="false">
+                  <param name="pixx:highlightcolor" value="6">
+                  <param name="pixx:highlightwords" value="huhu hallo lieb hilfe liebe ...">
+                  <param name="pixx:nickfield" value="true">
+                  <param name="pixx:showconnect" value="true">
+                  <param name="pixx:showchanlist" value="true">
+                  <param name="pixx:showabout" value="false">
+                  <param name="pixx:nicklistwidth" value="130">
+                  <param name="pixx:setfontonstyle" value="false">
+                  <param name="pixx:styleselector" value="true">
+                  <param name="pixx:helppage" value="http://www.iran-infos.de/forum/schat/index.html.htm">
+                  <param name="pixx:showstatus" value="true">
+                  <param name="style:righttoleft" value="false">
+                  <param name="style:sourcecolorrule1" value="none+Channel all 0=FFFFFF">
+                  <param name="style:sourcecolorrule2" value="none+Query none+some_nick 0=990000 1=ffffff">
+                  <param name="channelfont" value="15 bold verdana">
+                  <param name="pixx:color0" value="345487">
+                  <param name="pixx:color1" value="345487">
+                  <param name="pixx:color2" value="FFFFFF">
+                  <param name="pixx:color3" value="FFFFFF">
+                  <param name="pixx:color4" value="345487">
+                  <param name="pixx:color5" value="F5F9FD">
+                  <param name="pixx:color6" value="F5F9FD">
+                  <param name="pixx:color7" value="EEF2F7">
+                  <param name="pixx:color8" value="DFE6EF">
+                  <param name="pixx:color9" value="F5F9FD">
+                  <param name="pixx:color10" value="00CC66">
+                  <param name="pixx:color11" value="D2E9FF">
+                  <param name="pixx:color12" value="D2E9FF">
+                  <param name="pixx:color15" value="FFFFFF">
+                  <param name='pixx:configurepopup' value='true'>
+                  <param name='pixx:popupmenustring1' value='User Infos'>
+                  <param name='pixx:popupmenustring2' value='Privat Chatten'>
+                  <param name='pixx:popupmenustring3' value='Ban'>
+                  <param name='pixx:popupmenustring4' value='kick + Ban'>
+                  <param name='pixx:popupmenustring5' value='--'>
+                  <param name='pixx:popupmenustring6' value='+ Op'>
+                  <param name='pixx:popupmenustring7' value='- Op'>
+                  <param name='pixx:popupmenustring8' value='+ v'>
+                  <param name='pixx:popupmenustring9' value='- v'>
+                  <param name='pixx:popupmenustring10' value='--'>
+                  <param name='pixx:popupmenustring11' value='Ping'>
+                  <param name='pixx:popupmenustring12' value='PJIRC Version'>
+                  <param name='pixx:popupmenustring13' value='Datum/Uhrzeit'>
+                  <param name='pixx:popupmenustring14' value='Finger'>
+                  <param name='pixx:popupmenustring15' value='--'>
+                  <param name='pixx:popupmenustring16' value='sChat Webseite'>
+				  <param name='pixx:popupmenustring17' value='--'>
+                  <param name='pixx:popupmenustring18' value='Guten Morgen'>
+				  <param name='pixx:popupmenustring19' value='Hallo'>
+				  <param name='pixx:popupmenustring20' value='Gute Nacht'>
+				  <param name='pixx:popupmenustring21' value='Rose'>
+				  <param name='pixx:popupmenustring22' value='Bussi'>
+                  <param name='pixx:popupmenucommand1_1' value='/Whois %1'>
+                  <param name='pixx:popupmenucommand2_1' value='/Query %1'>
+                  <param name='pixx:popupmenucommand3_1' value='/mode %2 -o %1'>
+                  <param name='pixx:popupmenucommand3_2' value='/mode %2 +b %1'>
+                  <param name='pixx:popupmenucommand4_1' value='/mode %2 -o %1'>
+                  <param name='pixx:popupmenucommand4_2' value='/mode %2 +b %1'>
+                  <param name='pixx:popupmenucommand4_3' value='/kick %2 %1'>
+                  <param name='pixx:popupmenucommand6_1' value='/mode %2 +o %1'>
+                  <param name='pixx:popupmenucommand7_1' value='/mode %2 -o %1'>
+                  <param name='pixx:popupmenucommand8_1' value='/mode %2 +v %1'>
+                  <param name='pixx:popupmenucommand9_1' value='/mode %2 -v %1'>
+                  <param name='pixx:popupmenucommand11_1' value='/CTCP PING %1'>
+                  <param name='pixx:popupmenucommand12_1' value='/CTCP VERSION %1'>
+                  <param name='pixx:popupmenucommand13_1' value='/CTCP TIME %1'>
+                  <param name='pixx:popupmenucommand14_1' value='/CTCP FINGER %1'>
+                  <param name='pixx:popupmenucommand16_1' value='/url http://www.ibaddon.de'>
+				  <param name='pixx:popupmenucommand18_1' value='/me wünscht %1 einen wunderschönen Guten Morgen, hoffe wohl geruht zu haben. :) '>
+                  <param name='pixx:popupmenucommand19_1' value='Hallo %1, schön dich mal wieder zusehen. :)'> 
+				  <param name='pixx:popupmenucommand20_1' value='/me wünscht %1 einen erholsame Nacht.'>
+		  		  <param name='pixx:popupmenucommand21_1' value='/me schenkt %1 eine wunderschöne Rose!  @-]-- '>
+                  <param name='pixx:popupmenucommand22_1' value='/me gibt %1 4  einen dicken Bussie !!!'> 
+				  		   </applet>
+         <table width="80%"  border="0" cellpadding="0" cellspacing="0">
+           <tr>
+             <td width="217"><strong>Kommandos</strong></td>
+             <td width="30">&nbsp;</td>
+             <td width="210"><strong>Begr&uuml;ssung/Abschied</strong></td>
+             <td width="30">&nbsp;</td>
+             <td width="210"><strong>Aktionen</strong></td>
+           </tr>
+           <tr>
+             <td valign="top"><ul>
+			 <li>
+			 <a href="#sChat" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+'/\msg nickserv identify DeinPasswort');document.pjirc.requestSourceFocus()">Identifizieren</a>
+			 </li>
+               <li>
+			   <a href="#sChat" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+'/\msg nickserv register DeineEmailAdresse DeinPasswort');document.pjirc.requestSourceFocus()">Nick Registrieren</a>
+
+               </li>
+               <li>      
+			   <a href="#sChat" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+'/\away Bin kurz weg...');document.pjirc.requestSourceFocus()">Abwesend</a>               
+                 </li>
+             </ul></td>
+             <td width="30">&nbsp;</td>
+             <td valign="top"><ul>
+                 <li>
+				   <a href="#sChat" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+'Hallo alle zusammen :) ');document.pjirc.requestSourceFocus()">Hallo alle</a>    
+
+                 </li>
+                 <li>
+				 <a href="#sChat" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+'Chellas zusammen, hoffe hatten alle einen Tag schönen?');document.pjirc.requestSourceFocus()">Chellas</a>    
+
+</li>
+                 <li>    
+				 <a href="#sChat" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+'Tschüss zusammen');document.pjirc.requestSourceFocus()">Tschüss</a>                 
+
+</li>
+                 <li>
+				 <a href="#sChat" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+'Tschöö *winkewinke*');document.pjirc.requestSourceFocus()">Winke</a>    
+
+</li>
+                 <li>
+				 <a href="#sChat" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+'Gute Nacht und Träumt was schönes :)');document.pjirc.requestSourceFocus()">Gute nacht</a>
+                 </li>
+             </ul></td>
+             <td width="30">&nbsp;</td>
+             <td valign="top"><ul>
+			 		 
+               <li>
+			   <a href="#sChat" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+'/\me ');document.pjirc.requestSourceFocus()">Leere Aktion</a> 
+
+</li>
+               <li>
+			   <a href="#sChat" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+'/\me lacht sich voll tod... *HAHA');document.pjirc.requestSourceFocus()">Tod lachen</a> 
+
+               </li>
+               <li>    
+			     <a href="#sChat" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+'/\me zündet sich erstmal eine ()¯¯¯¯)¯¯¯¯¯¯¯¯¯¯¯¯¯¯)))~~~~ an.');document.pjirc.requestSourceFocus()">Rauchen</a>            
+
+               </li>
+			   <li>  
+			     <a href="#sChat" onClick="document.pjirc.setFieldText(document.pjirc.getFieldText()+'/\me versteht nur noch bahnhof *tut* *tut*');document.pjirc.requestSourceFocus()">Bahnhof</a>              
+               </li>
+               </ul></td>
+           </tr>
+         </table>         <p align="center">&nbsp;
+         </p></td>
+     </tr>
+     <tr>
+       <td valign="top">&nbsp;</td>
+       <td>&nbsp;</td>
+       <td valign="top"><div align="center">
+          </div></td>
+     </tr>
+   </table>
+<br><center><strong><a href="irc://irc.euirc.net/Iran">Klick hier wenn du direkt mit deinem mIRC Chatten m&ouml;chtest </a><br>  
+</center></td>
+ </tr>
+</table>
+<!---Dieser Copyright eintrag darf nicht entfernt werden!--->
+<div align='center' class='copyright'><a href="http://www.ibaddon.de" target="_blank">sChat v1.1 (IPB) by Silaz </a> &middot; <a href="http://www.pjirc.com/" target="_blank">pjIRC 2.0.0b</a> </div>
+<!---Dieser Copyright eintrag darf nicht entfernt werden!---><br> 
+ 
+<!-- Copyright Information -->
+
+<div align='center' class='copyright'>Powered by <a href="http://www.invisionboard.com" target='_blank'>Invision Power Board</a>(U) v1.3.1 Final &copy; 2003 &nbsp;<a href='http://www.invisionpower.com' target='_blank'>IPS, Inc.</a></div>
+</div>
+</body> 
+
+<script language="JavaScript">
+<!--
+
+window.open = SymRealWinOpen;
+
+//-->
+</script>
+
+</html>

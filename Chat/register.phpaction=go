@@ -1,0 +1,126 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Language" content="de-ch">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<title>Registrieren</title>
+<STYLE type="text/css"> A {text-decoration: none } </STYLE>
+</head>
+
+<body bgcolor="#DFE9EB"><script language="javascript">
+function check()
+{
+var email=document.form1.email.value, pw1=document.form1.passwort.value, pw2=document.form1.passwort2.value, alter=document.form1.alter.value, name=document.form1.name.value, hp=document.form1.hp.value;
+var cemail="",cpw="",calter="",cname="",chp="";
+
+if (email!="")
+{
+if (document.form1.email.value.indexOf('@',0)==-1 || document.form1.email.value.indexOf('.',0)==-1)
+var cemail="Die eingegebene E-Mail Adresse ist nicht korrekt!\n";
+}
+else{
+var cemail="Bitte E-Mail Adresse angeben!\n";}
+
+if (pw1!="" || pw2!="")
+{ if (pw1!=pw2)
+var cpw="Bitte Passwortangaben überprüfen!\n";
+}
+else{
+var cpw="Bitte Passwort eingeben!\n";}
+if (name=="")
+var cname="Bitte Namen angeben!\n";
+if (hp!="")
+{ if (document.form1.hp.value.indexOf('http://',0)==-1 || document.form1.hp.value.indexOf('www.',0)==-1)
+var chp="Bitte Websiteurl korrigieren: http:\/\/www. davor setzen!\n";
+}
+if (alter=="")
+var calter="Bitte Alter angeben!\n";
+if (cemail!="" || cpw!="" || cname!="" || chp!="" || calter!="")
+{
+alert(cemail+cpw+cname+chp+calter)
+return false;
+}
+else
+return true;
+}
+</script>
+
+<p>&nbsp;</p>
+
+<div align="center">
+  <center>
+  <table border="1" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="58%" id="AutoNumber2">
+    <tr>
+      <td width="100%" align="center" bgcolor="#DFE9EB">
+      <p align="left"><b><font size="2">&nbsp;</font><font size="2" face="Verdana">Registrierung</font></b></td>
+    </tr>
+    <tr>
+      <td width="100%" align="center" bordercolor="black" bgcolor="#DFE9EB">
+  </center>
+</div>
+<div align="center">
+<center>
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="60%" id="AutoNumber1" height="435">
+  <tr>
+    <td width="18%" align="left" valign="top" bgcolor="#DFE9EB" height="34">&nbsp;</td>
+    <td width="49%" align="left" valign="top" bgcolor="#DFE9EB" height="34">
+    <form method="POST" action="register.php?save=1" name="form1" onSubmit="return check()">
+      &nbsp;</td>
+  </tr>
+  <tr>
+    <td width="18%" align="left" valign="top" bgcolor="#DFE9EB" height="22"><font face="Arial" size="2">Benutzername:</font></td>
+    <td width="49%" align="left" valign="top" bgcolor="#DFE9EB" height="22">
+      <input type="text" name="username" size="46" style="border: 1px dotted #000000"></td>
+  </tr>
+  <tr>
+    <td width="18%" align="left" valign="top" bgcolor="#DFE9EB" height="22"><font face="Arial" size="2">Passwort:</font></td>
+    <td width="49%" align="left" valign="top" bgcolor="#DFE9EB" height="22">
+    <input type="password" name="passwort" size="22" style="border: 1px dotted #000000"></td>
+  </tr>
+  <tr>
+    <td width="18%" align="left" valign="top" bgcolor="#DFE9EB" height="10"><font face="Arial" size="2">
+    Passwort:</font></td>
+    <td width="49%" align="left" valign="top" bgcolor="#DFE9EB" height="10">
+    <input type="password" name="passwort2" size="22" style="border: 1px dotted #000000"></td>
+  </tr>
+  <tr>
+    <td width="18%" align="left" valign="top" bgcolor="#DFE9EB" height="22"><font face="Arial" size="2">
+    Name:</font></td>
+    <td width="49%" align="left" valign="top" bgcolor="#DFE9EB" height="22">
+    <input type="text" name="name" size="46" style="border: 1px dotted #000000"></td>
+  </tr>
+<tr>
+    <td width="18%" align="left" valign="top" bgcolor="#DFE9EB" height="22">
+    <font face="Arial" size="2">E-Mail:</font></td>
+    <td width="49%" align="left" valign="top" bgcolor="#DFE9EB" height="22">
+    <input type="text" name="email" size="46" style="border: 1px dotted #000000"></td>
+  </tr>
+  <tr>
+    <td width="18%" align="left" valign="top" bgcolor="#DFE9EB" height="22"><font face="Arial" size="2">Website:</font></td>
+    <td width="49%" align="left" valign="top" bgcolor="#DFE9EB" height="22">
+    <input type="text" name="hp" size="46" style="border: 1px dotted #000000"></td>
+  </tr>
+  <tr>
+    <td width="18%" align="left" valign="top" bgcolor="#DFE9EB" height="22"><font face="Arial" size="2">Alter:</font></td>
+    <td width="49%" align="left" valign="top" bgcolor="#DFE9EB" height="22">
+   <input type="text" name="alter" size="5" maxlength="2" style="border: 1px dotted #000000"></td>
+  </tr>
+  <tr>
+    <td width="18%" align="left" valign="top" bgcolor="#DFE9EB" height="281"><font face="Arial" size="2"><br>
+    Über sich selbst:</font></td>
+    <td width="49%" align="left" valign="top" bgcolor="#DFE9EB" height="281">
+      <font face="Arial"><textarea name="about" rows="9" cols="39" style="border: 1px dotted #000000"></textarea></font></p><br>
+        <input type="submit" value="Registrieren" name="B1" style="border: 1px dotted #000000">&nbsp;&nbsp;
+        <input type="reset" value="Löschen" name="B2" style="border: 1px dotted #000000"></p>
+      </form>
+&nbsp;</td>
+  </tr>
+</table>
+
+</center>
+
+</div>
+
+</body>
+
+</html>
